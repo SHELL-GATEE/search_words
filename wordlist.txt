@@ -1,0 +1,7 @@
+eval
+gzinflate
+base64_decode
+$_FILES
+$_GET
+$_REQUEST
+$_POST
