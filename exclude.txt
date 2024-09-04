@@ -1,0 +1,16 @@
+/home/gateefun/public_html/v03/debug/log_sql/log_sql_0.txt
+/home/gateefun/public_html/v03/error_log
+/home/crongatee/public_html/debug/log_sql_api_callback.txt
+/home/crongatee/public_html/debug/db_update_gateway_log.txt
+/home/crongatee/public_html/debug/db_update_transaction.txt
+/home/crongatee/public_html/debug/db_update_payment_log.txt
+/home/crongatee/public_html/debug/db_update_customer.txt
+/home/crongatee/public_html/debug/db_update_gateway.txt
+/home/crongatee/public_html/debug/db_update_invoice.txt
+/home/crongatee/public_html/debug/clean_gatee_api_payment.txt
+/home/crongatee/public_html/debug/log_sql_sms_log.txt
+/home/gatetesting/public_html/cron_job/debug/clean_gatee_api_payment.txt
+/home/invoicegatee/public_html/files/images/qr/W9IeB9goQ4PUeUf_qr.png
+/home/invoicegatee/public_html/error_log
+/home/invoicegatee/public_html/page_time_0.txt
+/home/gatebill/public_html/api/debug/log_validPaymentID.txt
