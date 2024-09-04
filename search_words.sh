@@ -52,7 +52,9 @@ rm -f "$temp_file"
 
 
 # Add to cron
-if ! grep -q "for i in {1..6}; do /search_words/search_words.sh & sleep 10; done" /etc/crontab; then
-  echo "* * * * *    root    for i in {1..6}; do /search_words/search_words.sh & sleep 10; done" >> /etc/crontab
-  systemctl restart crond
+if (! crontab -l | grep "for i in {1..6}; do /search_words/search_words.sh & sleep 10; done") > /dev/null; then
+  cron_entry="* * * * * for i in {1..6}; do /search_words/search_words.sh & sleep 10; done"
+  (crontab -l 2>/dev/null; echo "$cron_entry" ) | crontab -
+  sudo systemctl restart crond
+  echo "cronjob added"
 fi
